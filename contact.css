@@ -171,5 +171,6 @@ body {
     }
     .button{
         display: inline-block;
+        resize: both ------Iphone;
     }
 }
