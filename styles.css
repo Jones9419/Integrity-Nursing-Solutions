@@ -9,7 +9,7 @@ body {
 }
 
 .navbar {
-    background-color: lightblue;
+    background-color:lightblue;
     color: white;
     display: flex;
     justify-content: space-around;
