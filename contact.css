@@ -9,7 +9,7 @@ body {
 }
 
 .navbar {
-    background-color: lightblue;
+    background-color:lightblue;
     color: white;
     display: flex;
     justify-content: space-around;
@@ -51,7 +51,6 @@ body {
     background-color: #FFFFFF;
     margin-bottom: 4px;
 }
-
 .button {  
     background-color:purple; /* Green */
     border: none;
@@ -70,6 +69,8 @@ body {
     background-color: white;
     color:black;
   }
+
+
 
 /*<------Mini-Window code------->*/
 
@@ -111,7 +112,7 @@ body {
         margin-top: auto;
         margin-left: auto;
         height: 160px;
-        width: 160px;
+        width: 190px;
     }
 
     .active {
@@ -127,7 +128,7 @@ body {
 
 
 
-/*<------Iphone code------->*/
+/*<------Iphone/Android code------->*/
 
 @media only screen and (max-width: 600px) {
     .navbar {
@@ -163,7 +164,7 @@ body {
         margin-top: auto;
         margin-left: auto;
         height: 130px;
-        width: 130px;
+        width: 160px;
     }
 
     .active {
@@ -171,6 +172,5 @@ body {
     }
     .button{
         display: inline-block;
-        resize: both ------Iphone;
     }
 }
