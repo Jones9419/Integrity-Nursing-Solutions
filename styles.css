@@ -6,10 +6,17 @@
 
 body {
     background-color: lightgrey;
+    text-align: center;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .navbar {
-    background-color:lightblue;
+    background-color:rgb(173, 216, 230);
     color: white;
     display: flex;
     justify-content: space-around;
@@ -40,7 +47,7 @@ body {
 }
 
 .navbar a:hover {
-    color: purple;
+    color: rgb(128, 0, 128);
 }
 .menu {
     display: none;
@@ -70,6 +77,88 @@ body {
     color:black;
   }
 
+p, small{
+    color:#fff;
+}
+
+p {
+    margin-top: 20px;
+    font-size: 0.9em;
+    line-height: 23px;
+}
+
+h2 {margin: 0;}
+
+.skewed {
+    width: 45em;
+    color: #8f8f8f;
+    display: flex;
+    background: rgb(173, 216, 230);
+    margin-top:90px;
+    margin-left: 470px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+    
+}
+.text{
+    padding: 1.5em;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+    text-shadow:black 20px;
+}
+
+.image {
+    width: 50%;
+    height: 17em;
+} 
+
+img{
+    width:140%;
+}
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+.footer{
+    margin-top: 170px;
+   background-color: rgb(173, 216, 230);
+   padding: 70px 0;
+}
+.row{
+    display: flex;
+    flex: wrap;
+}
+.footer-col{
+    width: 100%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    margin-bottom: 25px;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: purple;
+    width: 50px;
+}
+.footer-col ul{
+    list-style: none;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    display: block;
+    transition: all .3s ease;
+}
+.footer-col ul li a:hover{
+    color: purple;
+    padding-left: 6px;
+}
 
 
 /*<------Mini-Window code------->*/
@@ -81,6 +170,7 @@ body {
     .navbar {
         flex-direction: column;
         position: relative;
+        margin-bottom: 40px;
     }
     
     .navbar .container-icon{
@@ -121,14 +211,25 @@ body {
     .button{
         display: inline-block;
     }
+    .skewed{
+        display: column;
+        width: 300px;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    .image {
+        display: none;
+    }
+
 }
 
 
 
 
-
-
 /*<------Iphone/Android code------->*/
+
 
 @media only screen and (max-width: 600px) {
     .navbar {
@@ -173,4 +274,5 @@ body {
     .button{
         display: inline-block;
     }
+
 }

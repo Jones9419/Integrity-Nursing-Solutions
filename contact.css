@@ -70,7 +70,48 @@ body {
     color:black;
   }
 
-
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+.footer{
+    margin-top: 170px;
+   background-color: rgb(173, 216, 230);
+   padding: 70px 0;
+}
+.row{
+    display: flex;
+    flex: wrap;
+}
+.footer-col{
+    width: 100%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    margin-bottom: 25px;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: purple;
+    width: 50px;
+}
+.footer-col ul{
+    list-style: none;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    display: block;
+    transition: all .3s ease;
+}
+.footer-col ul li a:hover{
+    color: purple;
+    padding-left: 6px;
+}
 
 /*<------Mini-Window code------->*/
 
