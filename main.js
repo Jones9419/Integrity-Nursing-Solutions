@@ -7,10 +7,10 @@ toggleButton.addEventListener('click', () => {
 
 function sendEmail() {
         Email.send({
-            Host : "smtp.gmail.com",
-            Username : "michaeljones081615@gmail.com",
-            Password : "Kentucky22@",
-            To : 'michaeljones081615@gmail.com',
+            Host : "https://www.godaddy.com",
+            Username : "hannahcjonesrn@gmail.com",
+            Password : "IVolution!",
+            To : "rachel@integritynursingsolutions.com",
             From : document.getElementById("email").value,
             Subject : "New Contact Form Inquiry",
             Body : "Name: " + document.getElementById("name").value 

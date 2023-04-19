@@ -84,8 +84,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: -65px;
-    margin-top: -80px;
+    margin-bottom: -25px;
+    margin-top: -30px;
 }
 form{
     background: #FFFFFF;
@@ -145,7 +145,7 @@ h2 {margin: 0;}
     background: rgb(173, 216, 230);
     margin-top: 115px;
     margin-bottom: 115px;
-    margin-left: 470px;
+    margin-left: 270px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
     
 }
