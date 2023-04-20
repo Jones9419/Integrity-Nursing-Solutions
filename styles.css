@@ -76,7 +76,9 @@ body {
     background-color: white;
     color:black;
   }
-
+  .blocklogo{
+    display: none;
+  }
   .container2{
     width:100%;
     height: 100vh;
@@ -328,8 +330,18 @@ img{
     .button{
         display: inline-block;
     }
-
-    .skewed{
-        display: ;
-    }
+   .skewed{
+    display:block;
+   }
+   .text {
+    display:contents;
+    text-size-adjust:smaller;
+   }
+   .blocklogo{
+    display: inline-block;
+    width: 250px;
+    height: 160px;
+    padding-bottom: 40px;
+    margin-top: 10px;
+   }
 }
