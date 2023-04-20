@@ -143,7 +143,7 @@ h2 {margin: 0;}
 
 .skewed {
     width: 45em;
-    color: #8f8f8f;
+    color: gray;
     display: flex;
     background: rgb(173, 216, 230);
     margin-top: 115px;
