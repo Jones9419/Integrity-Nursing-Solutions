@@ -14,7 +14,7 @@ function sendEmail() {
             From : document.getElementById("email").value,
             Subject : "New Contact Form Inquiry",
             Body : "Name: " + document.getElementById("name").value 
-            + "<br> Facility: " + document.getElementById("facilty").value
+            + "<br> Facility: " + document.getElementById("facility").value
             + "<br> Email: " + document.getElementById("email").value
             + "<br> Phone: " + document.getElementById("phone").value
             + "<br> Message" + document.getElementById("message").value
