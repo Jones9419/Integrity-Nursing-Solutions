@@ -340,8 +340,10 @@ img{
    .blocklogo{
     display: inline-block;
     width: 280px;
-    height: 180px;
+    height: 190px;
+    border-radius: 30px;
     padding-bottom: 40px;
     margin-top: 10px;
+    opacity: 90%;
    }
 }
