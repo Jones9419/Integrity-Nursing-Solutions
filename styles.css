@@ -70,6 +70,7 @@ body {
     transition-duration: 0.4s;
     cursor: pointer;
     opacity: 80%;
+    border-radius: 30px;
   }
   
   .button:hover {
